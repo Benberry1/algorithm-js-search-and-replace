@@ -1,0 +1,16 @@
+{
+  "name": "algorithm-js-search-and-replace",
+  "version": "1.0.0",
+  "description": "Solution and testing for the search and replace algorithm",
+  "main": "solution.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "start": "solution.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
