@@ -12,6 +12,18 @@ However, you must preserve the case of the first character in the before word. E
 
 I have created a test file that outlines some test cases for this challenge.
 
+## Documentation
+
+Below is a list of methods I used with links to the relevant MDN page.
+
+- [If statements](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
+- String methods
+  - [.toUpperCase()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase)
+  - [.substring()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/substring)
+  - [.replace()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replace)
+
+The alternative solution also used these methods with the addition of [RegExp - (Regular Expresssions)](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
+
 ## Acknowledgments
 
 This algorithm challenge was provided by [freeCodeCamp](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures). Although they do provide test cases I wanted to keep practising using Jest. This also helps break down the challenge into the required acceptence criteria to achieve the challenge.
