@@ -19,6 +19,12 @@ const testCases = [
     "Down",
     "I think we should look down there",
   ],
+  [
+    "I think we should look up up there",
+    "up",
+    "Down",
+    "I think we should look down down there",
+  ],
 ];
 
 describe("Search and replace function", () => {
