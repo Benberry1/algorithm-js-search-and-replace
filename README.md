@@ -12,6 +12,10 @@ However, you must preserve the case of the first character in the before word. E
 
 I have created a test file that outlines some test cases for this challenge.
 
+## Solution Notes
+
+Regarding the instructions from freeCodeCamp, although the solution passess the required tests. It is unclear whether they would like me to replace all occurences of the word or just the first. The solution replaces only the first occurence. If you wanted to replace all ocurrences then you would still use the replace() method. However, you would replace before with a RegExp version of before including the global RegExp 'g'.
+
 ## Documentation
 
 Below is a list of methods I used with links to the relevant MDN page.
