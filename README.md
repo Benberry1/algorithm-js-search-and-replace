@@ -14,16 +14,18 @@ I have created a test file that outlines some test cases for this challenge.
 
 ## Solution Notes
 
-Regarding the instructions from freeCodeCamp, although the solution passess the required tests. It is unclear whether they would like me to replace all occurences of the word or just the first. The solution replaces ALL occurences. If you wanted to replace just the first ocurrences then you would still use the replace() method. However, you would have the below code in your return statement instead of a RegExp version of before.
+Regarding the instructions from freeCodeCamp, although the solution passess the required tests. It is unclear whether they would like me to replace all occurence of the word or just the first. The solution replaces ALL occurences. If you wanted to replace just the first ocurrences then you would still use the replace() method. However, you would have the below code in your return statement instead of a RegExp version of before.
 
 ```
-sentence.replace(before, modifiedAfter);
+return sentence.replace(before, modifiedAfter);
 ```
 
 Instead of the current:
 
 ```
-sentence.replace(beforeRegex, modifiedAfter);
+const beforeRegex = new RegExp(before, "g");
+
+return sentence.replace(beforeRegex, modifiedAfter);
 ```
 
 ## Documentation
